@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LBK GARAGE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="tech-grid" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container nav-bar">
+      <a href="#" class="brand" aria-label="Accueil LBK Lobiko">
+        <div class="brand-logo">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3z"/>
+            <path d="M7.5 12h2l1.5-3 2 6 1.5-3h2" stroke="#ffffff"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <strong>LBK</strong>
+          <span>LOBIKO • CLINIQUE AUTO</span>
+        </div>
+      </a>
+
+      <a href="https://wa.me/243898014307?text=Bonjour" class="wa-header-btn js-wa-link" aria-label="Contacter LBK sur WhatsApp" title="WhatsApp LBK">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.375c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.813 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.016-1.297-4.984-4.344-5.141-4.547-.141-.203-1.234-1.641-1.234-3.125s.781-2.219 1.063-2.516c.281-.297.609-.375.813-.375.203 0 .406.016.578.016.188 0 .438-.078.688.516.25.609.859 2.094.938 2.25.078.156.125.344.016.547-.109.203-.156.344-.313.516-.156.188-.328.406-.469.547-.156.156-.313.328-.141.641.172.313.781 1.281 1.672 2.078 1.156 1.031 2.125 1.344 2.438 1.5.313.156.484.125.672-.078.188-.203.781-.906.984-1.219.203-.313.422-.266.703-.156.281.109 1.797.844 2.109 1 .313.156.516.234.594.359.078.141.078.797-.172 1.5z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- GRANDE PHOTO PRÉSENTATION DU GARAGE -->
+  <section class="hero-showcase">
+  
+    <img
+      class="hero-bg-img"
+      src="images/BACKGROUND1.jpg"
+      alt="Atelier du garage LBK Lobiko"
+    />
+    <div class="hero-overlay"></div>
+
+    <!-- Viseurs HUD -->
+    <div class="hud-corner hud-tl" aria-hidden="true"></div>
+    <div class="hud-corner hud-tr" aria-hidden="true"></div>
+    <div class="hud-corner hud-bl" aria-hidden="true"></div>
+    <div class="hud-corner hud-br" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span>Clinique Automobile • LBK Lobiko</span>
+        </div>
+
+        <h1>
+          <span class="lobiko-tag">GARAGE LBK — LOBIKO</span>
+          <span class="gradient-blue">La guérison pour vos véhicules</span>
+        </h1>
+
+        <p class="hero-desc">
+          Bienvenue chez <strong>LBK</strong>. Entre technologie de diagnostic de pointe et savoir-faire mécanique, nous redonnons vie, puissance et fiabilité à votre automobile.
+        </p>
+
+        <svg class="telemetry-wave" viewBox="0 0 600 65" aria-hidden="true">
+          <defs>
+            <linearGradient id="ecgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#2563eb" stop-opacity="0.2" />
+              <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+              <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.2" />
+            </linearGradient>
+          </defs>
+          <path d="M0,36 L140,36 L160,36 L172,20 L185,50 L200,8 L215,58 L228,36 L260,36 L320,36 L335,26 L348,44 L360,14 L375,54 L388,36 L600,36" />
+        </svg>
+
+        <div class="hero-actions">
+          <a href="#services" class="hero-cta">
+            <span>Découvrir nos 6 services</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- 6 SERVICES AVEC TITRE AU-DESSUS + PHOTO -->
+    <section id="services" class="services-section">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">intervention LBK</span>
+          <h2>Nos 6 Services Spécialisés</h2>
+        </div>
+        <p class="section-hint">Cliquez sur un service pour en savoir plus</p>
+      </div>
+
+      <div class="services-grid" id="servicesGrid"></div>
+    </section>
+
+    <!-- CONTACT UNIQUEMENT LOGO WHATSAPP -->
+    <section class="contact-dock" aria-label="Contact WhatsApp">
+      <div class="contact-panel">
+        <span>Contacter LBK directement sur WhatsApp</span>
+        <a href="https://wa.me/243898014307?text=Bonjour" class="wa-main-logo js-wa-link" aria-label="Ouvrir WhatsApp pour contacter LBK" title="Discuter sur WhatsApp">
+          <svg width="38" height="38" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.375c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.813 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.016-1.297-4.984-4.344-5.141-4.547-.141-.203-1.234-1.641-1.234-3.125s.781-2.219 1.063-2.516c.281-.297.609-.375.813-.375.203 0 .406.016.578.016.188 0 .438-.078.688.516.25.609.859 2.094.938 2.25.078.156.125.344.016.547-.109.203-.156.344-.313.516-.156.188-.328.406-.469.547-.156.156-.313.328-.141.641.172.313.781 1.281 1.672 2.078 1.156 1.031 2.125 1.344 2.438 1.5.313.156.484.125.672-.078.188-.203.781-.906.984-1.219.203-.313.422-.266.703-.156.281.109 1.797.844 2.109 1 .313.156.516.234.594.359.078.141.078.797-.172 1.5z"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- BOUTON WHATSAPP FLOTTANT -->
+  <a href="https://wa.me/243898014307?text=Bonjour"  class="wa-floating js-wa-link" aria-label="Contacter LBK sur WhatsApp" title="Contacter sur WhatsApp">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.375c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.813 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.016-1.297-4.984-4.344-5.141-4.547-.141-.203-1.234-1.641-1.234-3.125s.781-2.219 1.063-2.516c.281-.297.609-.375.813-.375.203 0 .406.016.578.016.188 0 .438-.078.688.516.25.609.859 2.094.938 2.25.078.156.125.344.016.547-.109.203-.156.344-.313.516-.156.188-.328.406-.469.547-.156.156-.313.328-.141.641.172.313.781 1.281 1.672 2.078 1.156 1.031 2.125 1.344 2.438 1.5.313.156.484.125.672-.078.188-.203.781-.906.984-1.219.203-.313.422-.266.703-.156.281.109 1.797.844 2.109 1 .313.156.516.234.594.359.078.141.078.797-.172 1.5z"/>
+    </svg>
+  </a>
+
+  <!-- MODAL SERVICE -->
+  <div class="modal-overlay" id="serviceModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <div class="modal-top">
+        <span class="modal-badge" id="modalCode">UNITÉ 01</span>
+        <button class="modal-close" id="modalClose" aria-label="Fermer la fenêtre">&times;</button>
+      </div>
+
+      <h3 class="modal-title" id="modalTitle">Titre du service</h3>
+      <img class="modal-photo" id="modalPhoto" src="" alt="" />
+      <p class="modal-desc" id="modalDesc">Description...</p>
+
+      <div class="modal-subtitle">Ce que le garage LBK réalise :</div>
+      <ul class="modal-list" id="modalTasks"></ul>
+
+      <div class="modal-footer">
+        <span>Besoin de ce soin ? Cliquez sur le logo WhatsApp :</span>
+        <a href="https://wa.me/243898014307?text=Bonjour"  class="modal-wa-icon js-wa-link" id="modalWaLink" aria-label="Contacter sur WhatsApp pour ce service">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.375c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.813 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.016-1.297-4.984-4.344-5.141-4.547-.141-.203-1.234-1.641-1.234-3.125s.781-2.219 1.063-2.516c.281-.297.609-.375.813-.375.203 0 .406.016.578.016.188 0 .438-.078.688.516.25.609.859 2.094.938 2.25.078.156.125.344.016.547-.109.203-.156.344-.313.516-.156.188-.328.406-.469.547-.156.156-.313.328-.141.641.172.313.781 1.281 1.672 2.078 1.156 1.031 2.125 1.344 2.438 1.5.313.156.484.125.672-.078.188-.203.781-.906.984-1.219.203-.313.422-.266.703-.156.281.109 1.797.844 2.109 1 .313.156.516.234.594.359.078.141.078.797-.172 1.5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <span>LBK (Lobiko) — La guérison pour vos véhicules</span>
+      <span class="copyright">&copy; <span id="year"></span> <strong>WAZAMANY STUDIO</strong>. Tous droits réservés.</span>
+    </div>
+  </footer>
+
+</body>
+    <script src="script.js"></script>
+</html>
