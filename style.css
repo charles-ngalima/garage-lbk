@@ -776,10 +776,12 @@
       color: var(--text-muted);
     }
 
-    .copyright strong {
+    .copyright strong a{
+       text-decoration: none;
       color: var(--blue-glow);
       letter-spacing: 0.06em;
     }
+   
 
     /* =========================================
        RESPONSIVE
