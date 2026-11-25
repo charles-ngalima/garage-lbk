@@ -23,7 +23,7 @@
       {
         code: "SERVICE 1",
         title: "Mécanique générale",
-        image: "images/mec-generale.jpeg",
+        image: "images/mec-generale.webp",
         modalDesc: "Nous assurons la remise en état mécanique de votre véhicule avec des outils de précision et des pièces fiables pour garantir sécurité et longévité.",
         tasks: [
           "Réfection et réparation complète du moteur",
@@ -36,7 +36,7 @@
       {
         code: "SERVICE 2",
         title: "Diagnostic Pro",
-        image: "images/diagn.jpg",
+        image: "images/diagn.webp",
         modalDesc: "Grâce à nos scanners professionnels, nous lisons en temps réel les calculateurs de votre véhicule pour identifier l'origine exacte des pannes.",
         tasks: [
           "Lecture et effacement des codes défauts multimarques",
@@ -49,7 +49,7 @@
       {
         code: "SERVICE 3",
         title: "Réparation véhicule toute marque",
-        image: "images/toutcar.jpg",
+        image: "images/toutcar.webp",
         modalDesc: "Quel que soit le constructeur ou l'année de votre véhicule, nos techniciens appliquent les protocoles officiels adaptés à chaque motorisation.",
         tasks: [
           "Prise en charge berlines, 4x4, SUV et utilitaires",
@@ -62,7 +62,7 @@
       {
         code: "SERVICES 4",
         title: "Programmation et duplication des clés",
-        image: "images/cles.jpg",
+        image: "images/cles.webp",
         modalDesc: "Clé perdue, cassée ou besoin d'un double sécurisé ? Nous programmons directement vos clés et cartes de démarrage sur le calculateur antidémarrage.",
         tasks: [
           "Duplication de clés codées et clés intelligentes (Keyless)",
@@ -75,7 +75,7 @@
       {
         code: "SERVICE 5",
         title: "Entretien professionnel",
-        image: "images/entretien.jpg",
+        image: "images/entretien.webp",
         modalDesc: "Un entretien régulier est la meilleure prévention. Nous réalisons des révisions complètes avec des fluides et filtres de haute qualité.",
         tasks: [
           "Vidange moteur avec huiles synthétiques certifiées",
@@ -88,7 +88,7 @@
       {
         code: "SERVICE 06",
         title: "Entretien des véhicules hybrides",
-        image: "images/hybrid.jpg",
+        image: "images/hybrid.webp",
         modalDesc: "Les véhicules hybrides demandent un savoir-faire spécifique. LBK réalise le diagnostic et l'entretien sécurisé des systèmes électriques haute tension.",
         tasks: [
           "Test de santé et équilibrage des cellules de batterie hybride",
